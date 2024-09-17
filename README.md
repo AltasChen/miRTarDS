@@ -1,5 +1,5 @@
 # miRTarDS
-miRTarDS including 1,220,904 MTIs from miRTarbase, miRDB, miRWalk, involving 6,085 genes and 1,261 pre-miRNAs. The data follows CC BY-NC 4.0. 
+miRTarDS including 1,220,904 MTIs from miRTarbase, miRDB, miRWalk, involving 6,085 genes and 1,261 pre-miRNAs. The 'Support Type' column was updated to classify Pre-miRNA and Target Gene relationships as 'Protein-level Interaction' if 'Functional MTI' is present. If only 'miRWalk' or 'miRDB' (or both) are present, the relationship is classified as 'Prediction Interaction'. The 'Hist' column was then used as a feature to perform binary classification between 'Protein-level Interaction' and 'Prediction Interaction' using a Random Forest classifier. The model has been saved as 'Random_Forest.pkl'. The data follows CC BY-NC 4.0.
 
 Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 miRTarDS Database License
