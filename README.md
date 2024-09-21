@@ -9,7 +9,7 @@ Chen, Baiming. "Refining Protein-Level MicroRNA Target Interactions in Disease f
 
 ### Citation Format
 Please use the following format for citation:
-
+```
 @article {Chen2024.05.17.594604,
 	author = {Chen, Baiming},
 	title = {Refining Protein-Level MicroRNA Target Interactions in Disease from Prediction Databases Using Sentence-BERT},
@@ -22,7 +22,7 @@ Please use the following format for citation:
 	eprint = {https://www.biorxiv.org/content/early/2024/09/18/2024.05.17.594604.full.pdf},
 	journal = {bioRxiv}
 }
-
+```
 Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 miRTarDS Database License
 You are free to:
