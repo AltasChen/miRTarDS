@@ -38,7 +38,7 @@ https://creativecommons.org/licenses/by-nc/4.0/
 
 If you use the data or any part of this project in your research or publication, please cite the following paper:
 
-Chen, Baiming. "Refining Protein-Level MicroRNA Target Interactions in Disease from Prediction Databases Using Sentence-BERT." *bioRxiv*, Cold Spring Harbor Laboratory, 2024, doi:10.1101/2024.05.17.594604. Available at: https://www.biorxiv.org/content/10.1101/2024.05.17.594604v7
+Chen, Baiming. "Refining Protein-Level MicroRNA Target Interactions in Disease from Prediction Databases Using Sentence-BERT." *bioRxiv*, Cold Spring Harbor Laboratory, 2024, doi:10.1101/2024.05.17.594604. Available at: https://www.biorxiv.org/content/10.1101/2024.05.17.594604v7.
 
 Please use the following format for citation:
 ```
