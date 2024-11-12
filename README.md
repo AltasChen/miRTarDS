@@ -1,5 +1,5 @@
 # miRTarDS
-miRTarDS including 1,220,904 MTIs from miRTarbase, miRDB, and miRWalk, involving 6,085 genes and 1,261 pre-miRNAs. 
+miRTarDS including **1,220,904** MTIs from miRTarbase, miRDB, and miRWalk, involving **6,085 genes** and **1,261 pre-miRNAs**. 
 
 **Feature and Label**
 The 'Support Type' column was further modified to serve as the label for classifying Pre-miRNA and Target Gene relationships. Relationships are categorized as 'Protein-level Interaction' when 'Functional MTI' is present but 'Functional MTI (Weak)' is not. This distinction is important because 'Functional MTI (Weak)' is identified through low-sensitivity experimental methods, such as sequencing and microarray. If only 'miRWalk' or 'miRDB' (or both) are present, the relationship is classified as 'Prediction Interaction'. The 'Hist' column was then utilized as a feature for performing binary classification between 'Protein-level Interaction' and 'Prediction Interaction' using a Random Forest classifier. The trained model has been saved as 'Random_Forest.pkl'. The data follows CC BY-NC 4.0.
@@ -38,7 +38,7 @@ https://creativecommons.org/licenses/by-nc/4.0/
 
 If you use the data or any part of this project in your research or publication, please cite the following paper:
 
-Chen, Baiming. "Refining Protein-Level MicroRNA Target Interactions in Disease from Prediction Databases Using Sentence-BERT." *bioRxiv*, Cold Spring Harbor Laboratory, 2024, doi:10.1101/2024.05.17.594604. Available at: [https://www.biorxiv.org/content/early/2024/09/18/2024.05.17.594604](https://www.biorxiv.org/content/10.1101/2024.05.17.594604v6).
+Chen, Baiming. "Refining Protein-Level MicroRNA Target Interactions in Disease from Prediction Databases Using Sentence-BERT." *bioRxiv*, Cold Spring Harbor Laboratory, 2024, doi:10.1101/2024.05.17.594604. Available at: https://www.biorxiv.org/content/10.1101/2024.05.17.594604v7
 
 Please use the following format for citation:
 ```
