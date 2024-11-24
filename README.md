@@ -5,7 +5,7 @@ miRTarDS including **1,220,904** MTIs from miRTarbase, miRDB, and miRWalk, invol
 The 'Support Type' column was further modified to serve as the label for classifying Pre-miRNA and Target Gene relationships. Relationships are categorized as 'Protein-level Interaction' when 'Functional MTI' is present but 'Functional MTI (Weak)' is not. This distinction is important because 'Functional MTI (Weak)' is identified through low-sensitivity experimental methods, such as sequencing and microarray. If only 'miRWalk' or 'miRDB' (or both) are present, the relationship is classified as 'Prediction Interaction'. The 'Hist' column was then utilized as a feature for performing binary classification between 'Protein-level Interaction' and 'Prediction Interaction' using a Random Forest classifier. The trained model has been saved as 'Random_Forest.pkl'. The data follows CC BY-NC 4.0.
 
 **Data Reliability**
-The data reliability can be assessed using the **Functional_MTIs_in_miRTarDS.xlsx** file, which contains all the Functional MTIs verified via western blot and reporter assays from miRTarBase 2022. miRTarDS accurately recognized **4,039 out of 4,113 MTIs** using my method.
+The data reliability can be assessed using the **Functional_MTIs_in_miRTarDS.xlsx** file, which contains all the Functional MTIs verified via western blot and reporter assays from miRTarBase 2022. miRTarDS accurately recognized **3,894 out of 3,962 MTIs** using my method.
 
 # License
 Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
