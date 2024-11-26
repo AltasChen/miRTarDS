@@ -9,8 +9,6 @@ def merge_files(output_file, file_list):
                 
                 # For the first file, write all lines with first-line modification
                 if i == 0:
-                    # Replace 'miRDS' with 'miRTarDS' in the first line
-                    lines[0] = lines[0].replace('miRDS', 'miRTarDS')
                     outfile.writelines(lines)
                 else:
                     # For other files, skip the first line and write the rest
