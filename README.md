@@ -51,20 +51,20 @@ https://creativecommons.org/licenses/by-nc/4.0/
 
 If you use the data or any part of this project in your research or publication, please cite the following paper:
 
-Chen, Baiming. "Refining Protein-Level MicroRNA Target Interactions in Disease from Prediction Databases Using Sentence-BERT." *bioRxiv*, Cold Spring Harbor Laboratory, 2024, doi:10.1101/2024.05.17.594604. Available at: https://www.biorxiv.org/content/10.1101/2024.05.17.594604v7.
+Chen, Baiming. "Refining Protein-Level MicroRNA Target Interactions in Disease from Prediction Databases Using Sentence-BERT." *bioRxiv*, Cold Spring Harbor Laboratory, 2024, doi:10.1101/2024.05.17.594604. Available at: https://www.biorxiv.org/content/10.1101/2024.05.17.594604v8.
 
 Please use the following format for citation:
 ```
 @article {Chen2024.05.17.594604,
 	author = {Chen, Baiming},
-	title = {Refining Protein-Level MicroRNA Target Interactions in Disease from Prediction Databases Using Sentence-BERT},
+	title = {miRTarDS: High-Accuracy Refining Protein-level MicroRNA Target Interactions from Prediction Databases Using Sentence-BERT},
 	elocation-id = {2024.05.17.594604},
-	year = {2024},
+	year = {2025},
 	doi = {10.1101/2024.05.17.594604},
 	publisher = {Cold Spring Harbor Laboratory},
-	abstract = {miRNAs (microRNAs) regulate gene expression by binding to mRNAs, inhibiting translation, or promoting mRNA degradation. miRNAs are of great importance in the development of diseases. Currently, a variety of miRNA target prediction tools are available, which analyze sequence complementarity, thermodynamic stability, and evolutionary conservation to predict miRNA-target interactions (MTIs) within the 3{\textquoteright} untranslated region (3{\textquoteright}UTR). We propose a concept for further screening sequence-based predicted MTIs by considering the disease similarity between miRNA and gene to establish a prediction database of disease-specific MTIs. We fine-tuned a Sentence-BERT model to calculate disease semantic similarity. The method achieved an F1 score of 0.88 in accurately distinguishing protein-level experimentally (Western Blot, Reporter Assay, etc.) validated MTIs and predicted MTIs. Moreover, the method exhibits exceptional generalizability across different databases. The proposed method was utilized to calculate the similarity of disease in 1,220,904 MTIs from miRTarbase, miRDB, and miRWalk, involving 6,085 genes and 1,261 pre-miRNAs. The study holds the potential to offer valuable insights into comprehending miRNA-gene regulatory networks and advancing progress in disease diagnosis, treatment, and drug development.Competing Interest StatementThe authors have declared no competing interest.},
-	URL = {https://www.biorxiv.org/content/early/2024/10/07/2024.05.17.594604},
-	eprint = {https://www.biorxiv.org/content/early/2024/10/07/2024.05.17.594604.full.pdf},
+	abstract = {MicroRNAs (miRNAs) regulate gene expression by binding to mRNAs, inhibiting translation, or promoting mRNA degradation. miRNAs are of great importance in the development of various diseases. Currently, numerous sequence-based miRNA target prediction tools are available, however, only 1\% of their predictions have been experimentally validated. In this study, we propose a novel approach that leverages disease similarity between miRNAs and genes as a key feature to further refine and screen human sequence-based predicted miRNA target interactions (MTIs). To quantify the semantic similarity of diseases, we fine-tuned the Sentence-BERT model. Our method achieved an F1 score of 0.88 in accurately distinguishing human protein-level experimentally validated MTIs (functional MTIs, validated through western blot or reporter assay) and predicted MTIs. Moreover, this method exhibits exceptional generalizability across different databases. We applied the proposed method to analyze 1,220,904 human MTIs sourced from miRTarbase, miRDB, and miRWalk, encompassing 6,085 genes and 1,261 pre-miRNAs. Our model was trained in miRTarBase 2022. However, we accurately identified 90\% (518/574) of the updated functional MTIs in miRTarbase 2025. This study has the potential to provide valuable insights into the understanding of miRNA-gene regulatory networks and to promote advancements in disease diagnosis, treatment, and drug development.Competing Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2025/01/04/2024.05.17.594604},
+	eprint = {https://www.biorxiv.org/content/early/2025/01/04/2024.05.17.594604.full.pdf},
 	journal = {bioRxiv}
 }
 ```
