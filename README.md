@@ -7,7 +7,7 @@ The 'Support Type' column was further modified to serve as the label for classif
 **Data Reliability**
 Our method is trained with MTIs from miRTarBase 2022, miRDB & miRWalk. The data reliability can be assessed with the **2025_update_MTI** file, which only contains new Functional MTIs validated via western blot and reporter assays from miRTarBase 2025. miRTarDS accurately identified **90% (518 out of 574) NEW MTIs**, which perfectly aligns with the recall rate of identified functional MTIs in miRTarBase 2022 (90%, as derived from miRTarDS and RF_classifier.py). This demonstrates that the model is convergent and capable of effectively handling new data.
 
-# Method of Application
+# Application
 To use miRTarDS, please follow these steps:
 1. **Clone the Repository**: Clone the miRTarDS repository to local.
 2. **Merge miRTarDS Parts**: Navigate to the miRTarDS folder and merge the components by running:
