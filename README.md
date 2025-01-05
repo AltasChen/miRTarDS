@@ -5,7 +5,20 @@ miRTarDS including **1,220,904** MTIs from miRTarbase, miRDB, and miRWalk, invol
 The 'Support Type' column was further modified to serve as the label for classifying Pre-miRNA and Target Gene relationships. Relationships are categorized as 'Protein-level Interaction' when 'Functional MTI' is present but 'Functional MTI (Weak)' is not. This distinction is important because 'Functional MTI (Weak)' is identified through low-sensitivity experimental methods, such as sequencing and microarray. If only 'miRWalk' or 'miRDB' (or both) are present, the relationship is classified as 'Prediction Interaction'. The 'Hist' column was then utilized as a feature for performing binary classification between 'Protein-level Interaction' and 'Prediction Interaction' using a Random Forest classifier. The trained model has been saved as 'Random_Forest.pkl'. The data follows CC BY-NC 4.0.
 
 **Data Reliability**
-Our method is trained with MTIs from miRTarBase 2022. The data reliability can be assessed with the **2025_update_MTI** file, which contains new Functional MTIs validated via western blot and reporter assays from miRTarBase 2025. miRTarDS accurately recognized **518 out of 574 MTIs** using my method.
+Our method is trained with MTIs from miRTarBase 2022, miRDB & miRWalk. The data reliability can be assessed with the **2025_update_MTI** file, which only contains new Functional MTIs validated via western blot and reporter assays from miRTarBase 2025. miRTarDS accurately identified **90% (518 out of 574) NEW MTIs**, which perfectly aligns with the recall rate of identified functional MTIs in miRTarBase 2022 (90%, as derived from miRTarDS and RF_classifier.py). This demonstrates that the model is convergent and capable of effectively handling new data.
+
+# Method of Application
+To use miRTarDS, please follow these steps:
+1. **Clone the Repository**: Clone the miRTarDS repository to local.
+2. **Merge miRTarDS Parts**: Navigate to the miRTarDS folder and merge the components by running:
+```
+python merge_miRTarDS.py
+```
+3. **Run the Random Forest Classifier**: Benchmark miRTarDS by executing the Random Forest classifier with the following command:
+```
+python RF_classifier.py
+```
+Upon execution, the output will include model evaluation metrics (ROC and PRC curves, etc) and, optionally, the Random_Forest_Classifier.pkl file, which will be saved in the same folder.
 
 # License
 Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
